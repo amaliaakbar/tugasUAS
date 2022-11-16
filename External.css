@@ -1,0 +1,65 @@
+p {
+    text-align: center;
+    color: red;
+  }
+  
+/* CSS Background*/
+body {
+  background-image: url("image/anakkucing.JFIF");
+  background-repeat: repeat; /*pilihan : repeat, no-repeat, repeat-x, repeat-y */
+  background-position: right top; /*pilihan : right, top, bottom, left */
+  background-attachment: fixed; /* pilihan : fixed, atau Scroll*/
+}
+
+#Para1 {
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+}
+
+div {
+    background-color: blue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+  
+  div.first {
+    opacity: 0.1;
+  }
+  
+  div.second {
+    opacity: 0.3;
+  }
+  
+  div.third {
+    opacity: 0.6;
+  }
+
+body {
+    background-color: rgb(81, 203, 160);
+   
+}
+
+p.dotted {
+    border-style: dotted;
+    border-width: 5px;
+}
+p.dashed {
+    border-style: dashed;
+    border-width: medium;
+}
+p.solid {
+    border-style: solid;
+    border-width: thick;
+    border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+}
+
+  .Right {
+    text-align: right;
+    color: indigo;

@@ -1,0 +1,26 @@
+h1 {
+       background-color: greenyellow;
+       width: 300px;
+       border: 15px solid black;
+       outline: 10 px inset rosybrown;
+       outline-offset: 10px;
+       padding: 50px;
+       margin: 100px;
+       text-align: center;
+   }
+   h2 {
+    background-color: grey;
+    color: aquamarine;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 25%;
+    text-transform: uppercase;
+   }
+   p {
+      font-family: lucida;
+      font-size: 20px;
+      font-style: italic;
+   }
+

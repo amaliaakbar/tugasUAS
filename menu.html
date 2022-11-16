@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/profil.JPG">
+  <title> Akbar Shop</title>
+  <!--BUAT CSS-->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+  <!--BUAT JS-->
+  
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="css/all.css">
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+
+</head>
+<body style="background-color: pink;">
+<script ></script>  
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+    <ul class="navbar-nav me-auto">
+      <li class="nav-item">
+      <a class="navbar-brand" href="menu.html">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      </li>
+      <li class="nav-item">
+      <a class="navbar-brand" href="Galery.html">Galery</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+        </button>
+      </li>
+      </li>
+          <li class="nav-item">
+          <a class="navbar-brand" href="Bunga.html">Tentang</a>
+        </li>
+    <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="login.html">Login <span class="glyphicon glyphicon-log-in"></span></a>
+          <div class="dropdown-menu">
+          <form id="formLogin" class="form container-fluid">
+          <div class="form-group">
+          <label for="usr">Name:</label>
+          <input type="text" class="form-control" id="usr">
+       </div>
+  <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd">
+              </div>
+              <button type="button" id="btnLogin" class="btn btn-block">Login</button>
+            </form>
+            <div class="container-fluid">
+              <br>
+              <a class="small" href="#">Forgot password?</a>
+    </div> 
+</li>
+</ul>
+    </ul>
+    <form class="d-flex">
+      <input class="form-control me-2" type="text" placeholder="Search">
+      <button class="btn btn-primary" type="button">Search</button>
+    </form>
+    </div>
+  </div>
+  </nav>
+<br>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+      <img src="images/Profil.JPG" class="d-block w-100" width="100" height="500" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          <h5>BOUQUET AKBAR</h5>
+            <p>Pilih Bucket Kesayanganmu untuk Orang Tersayang.</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+      <img src="images/M17.JPG" class="d-block w-100" width="100" height="500" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+          <h5>BOUQUET AKBAR</h5>
+            <p>Pilih Bucket Kesayanganmu untuk Orang Tersayang.</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+      <img src="images/S31 (33).JPG" class="d-block w-100" width="100" height="500" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>BOUQUET AKBAR</h5>
+            <p>Pilih Bucket Kesayanganmu untuk Orang Tersayang.</p>
+      </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+<br>
+<hr>
+<!--AWAL CONTAINER-->
+	<div>
+		<center><h2>Daftar Harga</h2></center>
+		<br>
+	<table class="table table-bordered table-striped table-hover border-warning bg-light">
+			<thead class="table-dark">
+	<tr>
+		<th>No</th>
+		<th>Jenis Bucket</th>
+		<th>Harga</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>Snack</td>
+			<td>Rp15.000 - < 100.000</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Wisuda/Ulang Tahun</td>
+			<td>Rp30.000 - < 100.000.</td>
+		</tr>
+	<tr>
+			<td>3</td>
+			<td>Bunga</td>
+			<td>Rp25.000 - < 100.000</td>
+		</tr>
+		</tbody>
+	</table>
+	</div>
+</div>
+
+<!--FIGURE-->
+<hr>
+<!--AWAL CONTAINER-->
+<div class="container">
+<center><strong><h2>Daftar menu</h2></strong></center>
+	<ul class="list-inline">
+	<li class="list-inline-item">Beranda</li><br>
+	<li class="list-inline-item">Kontak : 0819 5000 1987</li>
+</ul>
+
+<hr>
+	<strong>Daftar Bucket Bunga</strong>
+	<ul><!--AWAL CONTAINER-->
+	<div class="container">
+		<li>Mawar</li>
+		<li>Baby's breath</li>
+		<li>Hydrangea</li>
+		<li>Anggrek</li>
+		<li>bangkai</li>
+		<li>Peony</li>
+		<li>Anyelir</li>
+		<li>Krisan</>
+	</ul>
+
+	<hr>
+
+	<strong>Daftar Bucket Snack</strong>
+	<ul class="list-unstyled">
+		<li>Snack Chiki</li>
+		<li>Tanggo</li>
+		<li>Nabati</li>
+		<li>Wafer</li>
+		<li>Susu</li>
+		<li>Chocolatos</li>
+	</ul>
+
+</div>
+
+
+</li>
+</ul>
+</ul>
+</div>
+</div>
+</nav>
+</body>
+</html>
